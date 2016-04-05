@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HMHeadLineController.h
 //  01-网易新闻
 //
 //  Created by HM on 16/4/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HMHeadLineController : UICollectionViewController
 
 @end
-

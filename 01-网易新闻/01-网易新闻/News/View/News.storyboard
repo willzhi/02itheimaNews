@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="rQj-Be-AEy">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Head Line Controller-->
+        <scene sceneID="9wh-mB-tqs">
+            <objects>
+                <collectionViewController id="rQj-Be-AEy" customClass="HMHeadLineController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="gHn-8p-edR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="EwA-Jd-PGX">
+                            <size key="itemSize" width="256" height="296"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="d0v-0B-JwZ" customClass="HMHeadLineCell">
+                                <rect key="frame" x="32" y="0.0" width="256" height="296"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="256" height="296"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S25-CL-sGK">
+                                            <rect key="frame" x="0.0" y="0.0" width="256" height="266"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOJ-9n-YiN">
+                                            <rect key="frame" x="8" y="267" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <pageControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="edO-wd-fp4">
+                                            <rect key="frame" x="182" y="259" width="66" height="37"/>
+                                            <color key="pageIndicatorTintColor" red="1" green="0.18431321040000001" blue="0.4097759855" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="currentPageIndicatorTintColor" red="0.12196228689999999" green="0.52458093709999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </pageControl>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="S25-CL-sGK" secondAttribute="trailing" id="2eO-t4-opJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="S25-CL-sGK" secondAttribute="bottom" constant="30" id="67l-Jj-Nnz"/>
+                                    <constraint firstAttribute="bottom" secondItem="AOJ-9n-YiN" secondAttribute="bottom" constant="8" id="A9M-z9-2m8"/>
+                                    <constraint firstItem="S25-CL-sGK" firstAttribute="leading" secondItem="d0v-0B-JwZ" secondAttribute="leading" id="AJA-dS-StS"/>
+                                    <constraint firstItem="S25-CL-sGK" firstAttribute="top" secondItem="d0v-0B-JwZ" secondAttribute="top" id="bPI-3Q-K7z"/>
+                                    <constraint firstItem="AOJ-9n-YiN" firstAttribute="leading" secondItem="d0v-0B-JwZ" secondAttribute="leading" constant="8" id="m3l-jf-1Gg"/>
+                                    <constraint firstAttribute="bottom" secondItem="edO-wd-fp4" secondAttribute="bottom" id="wXa-sw-d1J"/>
+                                    <constraint firstAttribute="trailing" secondItem="edO-wd-fp4" secondAttribute="trailing" constant="8" id="xdN-8V-ETc"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="S25-CL-sGK" id="iaC-yD-ET2"/>
+                                    <outlet property="pageControl" destination="edO-wd-fp4" id="t4R-wv-ChY"/>
+                                    <outlet property="titleLabel" destination="AOJ-9n-YiN" id="Uy5-gR-BcA"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="rQj-Be-AEy" id="QbE-oQ-THZ"/>
+                            <outlet property="delegate" destination="rQj-Be-AEy" id="fKZ-I2-ikn"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <outlet property="layout" destination="EwA-Jd-PGX" id="y2h-JQ-l5k"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ya4-76-cWN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="154" y="297"/>
+        </scene>
+    </scenes>
+</document>

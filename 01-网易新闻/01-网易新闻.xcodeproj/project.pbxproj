@@ -7,25 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EAC94EB4AF575E48692D5DA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567651AB63A039D477C8A03 /* libPods.a */; };
 		860969191CB344CF003AA294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 860969181CB344CF003AA294 /* main.m */; };
 		8609691C1CB344CF003AA294 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8609691B1CB344CF003AA294 /* AppDelegate.m */; };
-		8609691F1CB344CF003AA294 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8609691E1CB344CF003AA294 /* ViewController.m */; };
-		860969221CB344CF003AA294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860969201CB344CF003AA294 /* Main.storyboard */; };
 		860969241CB344CF003AA294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860969231CB344CF003AA294 /* Assets.xcassets */; };
 		860969271CB344CF003AA294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860969251CB344CF003AA294 /* LaunchScreen.storyboard */; };
+		866692321CB34E7B002B7156 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866692311CB34E7B002B7156 /* News.storyboard */; };
+		866692351CB34EAA002B7156 /* HMHeadLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866692341CB34EAA002B7156 /* HMHeadLineController.m */; };
+		866692381CB35118002B7156 /* HMHeadLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 866692371CB35118002B7156 /* HMHeadLineCell.m */; };
+		8666923C1CB351DC002B7156 /* HMHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666923B1CB351DC002B7156 /* HMHTTPManager.m */; };
+		8666923F1CB3543C002B7156 /* HMApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666923E1CB3543C002B7156 /* HMApiManager.m */; };
+		866692421CB355F9002B7156 /* HMHeadLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 866692411CB355F9002B7156 /* HMHeadLine.m */; };
+		866692461CB35908002B7156 /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 866692451CB35908002B7156 /* NSObject+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1567651AB63A039D477C8A03 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		158A04B3A175E81F13B8AE13 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		860969141CB344CF003AA294 /* 01-网易新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-网易新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		860969181CB344CF003AA294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8609691A1CB344CF003AA294 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8609691B1CB344CF003AA294 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8609691D1CB344CF003AA294 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8609691E1CB344CF003AA294 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		860969211CB344CF003AA294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		860969231CB344CF003AA294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		860969261CB344CF003AA294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		860969281CB344CF003AA294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866692311CB34E7B002B7156 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		866692331CB34EAA002B7156 /* HMHeadLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHeadLineController.h; sourceTree = "<group>"; };
+		866692341CB34EAA002B7156 /* HMHeadLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHeadLineController.m; sourceTree = "<group>"; };
+		866692361CB35118002B7156 /* HMHeadLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHeadLineCell.h; sourceTree = "<group>"; };
+		866692371CB35118002B7156 /* HMHeadLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHeadLineCell.m; sourceTree = "<group>"; };
+		8666923A1CB351DC002B7156 /* HMHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHTTPManager.h; sourceTree = "<group>"; };
+		8666923B1CB351DC002B7156 /* HMHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHTTPManager.m; sourceTree = "<group>"; };
+		8666923D1CB3543C002B7156 /* HMApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMApiManager.h; sourceTree = "<group>"; };
+		8666923E1CB3543C002B7156 /* HMApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMApiManager.m; sourceTree = "<group>"; };
+		866692401CB355F9002B7156 /* HMHeadLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHeadLine.h; sourceTree = "<group>"; };
+		866692411CB355F9002B7156 /* HMHeadLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHeadLine.m; sourceTree = "<group>"; };
+		866692441CB35908002B7156 /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		866692451CB35908002B7156 /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		A05152E2DEC6D5F022944CFE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EAC94EB4AF575E48692D5DA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4685EF5B3549F1CA0726A7F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				158A04B3A175E81F13B8AE13 /* Pods.debug.xcconfig */,
+				A05152E2DEC6D5F022944CFE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73E856E45ABD2D5CCA43C94C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1567651AB63A039D477C8A03 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8609690B1CB344CF003AA294 = {
 			isa = PBXGroup;
 			children = (
 				860969161CB344CF003AA294 /* 01-网易新闻 */,
 				860969151CB344CF003AA294 /* Products */,
+				4685EF5B3549F1CA0726A7F0 /* Pods */,
+				73E856E45ABD2D5CCA43C94C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +97,10 @@
 		860969161CB344CF003AA294 /* 01-网易新闻 */ = {
 			isa = PBXGroup;
 			children = (
+				866692391CB351C9002B7156 /* Help */,
+				8666922D1CB34E6B002B7156 /* News */,
 				8609691A1CB344CF003AA294 /* AppDelegate.h */,
 				8609691B1CB344CF003AA294 /* AppDelegate.m */,
-				8609691D1CB344CF003AA294 /* ViewController.h */,
-				8609691E1CB344CF003AA294 /* ViewController.m */,
-				860969201CB344CF003AA294 /* Main.storyboard */,
 				860969231CB344CF003AA294 /* Assets.xcassets */,
 				860969251CB344CF003AA294 /* LaunchScreen.storyboard */,
 				860969281CB344CF003AA294 /* Info.plist */,
@@ -79,6 +117,65 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8666922D1CB34E6B002B7156 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				8666922E1CB34E6B002B7156 /* Controller */,
+				8666922F1CB34E6B002B7156 /* Model */,
+				866692301CB34E6B002B7156 /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		8666922E1CB34E6B002B7156 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				866692331CB34EAA002B7156 /* HMHeadLineController.h */,
+				866692341CB34EAA002B7156 /* HMHeadLineController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8666922F1CB34E6B002B7156 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				866692401CB355F9002B7156 /* HMHeadLine.h */,
+				866692411CB355F9002B7156 /* HMHeadLine.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		866692301CB34E6B002B7156 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				866692311CB34E7B002B7156 /* News.storyboard */,
+				866692361CB35118002B7156 /* HMHeadLineCell.h */,
+				866692371CB35118002B7156 /* HMHeadLineCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		866692391CB351C9002B7156 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				866692431CB35908002B7156 /* Log */,
+				8666923A1CB351DC002B7156 /* HMHTTPManager.h */,
+				8666923B1CB351DC002B7156 /* HMHTTPManager.m */,
+				8666923D1CB3543C002B7156 /* HMApiManager.h */,
+				8666923E1CB3543C002B7156 /* HMApiManager.m */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		866692431CB35908002B7156 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				866692441CB35908002B7156 /* NSObject+Log.h */,
+				866692451CB35908002B7156 /* NSObject+Log.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8609692B1CB344CF003AA294 /* Build configuration list for PBXNativeTarget "01-网易新闻" */;
 			buildPhases = (
+				5A87219188C883B689028118 /* Check Pods Manifest.lock */,
 				860969101CB344CF003AA294 /* Sources */,
 				860969111CB344CF003AA294 /* Frameworks */,
 				860969121CB344CF003AA294 /* Resources */,
+				6A6B631E07EA1C6C621CCDBA /* Embed Pods Frameworks */,
+				D1B4BC16E9EDEE696B12E786 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +205,7 @@
 		8609690C1CB344CF003AA294 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HM;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = HM;
 				TargetAttributes = {
@@ -137,35 +238,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				860969271CB344CF003AA294 /* LaunchScreen.storyboard in Resources */,
+				866692321CB34E7B002B7156 /* News.storyboard in Resources */,
 				860969241CB344CF003AA294 /* Assets.xcassets in Resources */,
-				860969221CB344CF003AA294 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A87219188C883B689028118 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A6B631E07EA1C6C621CCDBA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1B4BC16E9EDEE696B12E786 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		860969101CB344CF003AA294 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8609691F1CB344CF003AA294 /* ViewController.m in Sources */,
+				866692421CB355F9002B7156 /* HMHeadLine.m in Sources */,
 				8609691C1CB344CF003AA294 /* AppDelegate.m in Sources */,
+				8666923F1CB3543C002B7156 /* HMApiManager.m in Sources */,
 				860969191CB344CF003AA294 /* main.m in Sources */,
+				866692381CB35118002B7156 /* HMHeadLineCell.m in Sources */,
+				8666923C1CB351DC002B7156 /* HMHTTPManager.m in Sources */,
+				866692461CB35908002B7156 /* NSObject+Log.m in Sources */,
+				866692351CB34EAA002B7156 /* HMHeadLineController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		860969201CB344CF003AA294 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				860969211CB344CF003AA294 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		860969251CB344CF003AA294 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,23 +407,29 @@
 		};
 		8609692C1CB344CF003AA294 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158A04B3A175E81F13B8AE13 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "01-网易新闻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.-10.-1-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8609692D1CB344CF003AA294 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05152E2DEC6D5F022944CFE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "01-网易新闻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.-10.-1-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -300,6 +452,7 @@
 				8609692D1CB344CF003AA294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
